@@ -8,12 +8,12 @@
     { "type": "application/rss+xml", "url": "https://feeds.feedburner.com/lutzroeder" }
   ],
   "links": [
-    { "name": "Twitter",    "symbol": "&#xe286;", "url": "https://www.twitter.com/lutzroeder" },
-    { "name": "GitHub",     "symbol": "&#xe237;", "url": "https://www.github.com/lutzroeder" },
-    { "name": "RSS",        "symbol": "&#xe271;", "url": "https://feeds.feedburner.com/lutzroeder" }
+    { "name": "Twitter", "symbol": "&#xe286;", "url": "https://www.twitter.com/lutzroeder" },
+    { "name": "GitHub",  "symbol": "&#xe237;", "url": "https://github.com/lutzroeder" },
+    { "name": "RSS",     "symbol": "&#xe271;", "url": "https://feeds.feedburner.com/lutzroeder" }
   ],
   "pages": [
-    { "name": "Blog",     "url": "/",         "visible": true },
-    { "name": "Projects", "url": "/projects", "visible": true }
+    { "name": "Blog",     "url": "{{{root}}}",         "visible": true },
+    { "name": "Projects", "url": "{{{root}}}projects", "visible": true }
   ]
 }
